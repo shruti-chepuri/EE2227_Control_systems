@@ -13,8 +13,8 @@ plt.semilogx(w,(mag))    # Bode magnitude plot
 plt.title('Bode plot of Transfer Function')
 plt.ylabel("[dB]")
 plt.xlabel("[rad/s]")
-'''plt.savefig('./figs/ee18btech11006/ee18btech11006_2.pdf')
+plt.savefig('./figs/ee18btech11006/ee18btech11006_2.pdf')
 plt.savefig('./figs/ee18btech11006/ee18btech11006_2.eps')
-subprocess.run(shlex.split("termux-open ./figs/ee18btech11006/ee18btech11006_2.pdf"))'''
-plt.show()
-plt.show()
+subprocess.run(shlex.split("termux-open ./figs/ee18btech11006/ee18btech11006_2.pdf"))
+#plt.show()
+
