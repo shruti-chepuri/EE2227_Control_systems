@@ -12,7 +12,7 @@ w, mag, phase = signal.bode(system, w=r)
 plt.semilogx(w,(mag),'r')    # Bode magnitude plot
 plt.ylabel("[dB]")
 plt.xlabel("[rad/s]")
-'''plt.savefig('./figs/ee18btech11006/ee18btech11006_3.pdf')
+plt.savefig('./figs/ee18btech11006/ee18btech11006_3.pdf')
 plt.savefig('./figs/ee18btech11006/ee18btech11006_3.eps')
-subprocess.run(shlex.split("termux-open ./figs/ee18btech11006/ee18btech11006_3.pdf"))'''
-plt.show()
+subprocess.run(shlex.split("termux-open ./figs/ee18btech11006/ee18btech11006_3.pdf"))
+#plt.show()
